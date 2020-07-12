@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.w1000{
+    width: 1000px;
+    margin: 0 auto;
+}
+body{
+    font: normal normal 14px/1.5;
+    background-color: #eee;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+h1,h2{
+    font-weight: normal;
+}
+/* header start */
+.header{
+    width: 100%;
+    height: 29px;
+    background-color: #fff;
+    border-bottom: 1px solid #e9e9e9;
+    color: #666666;
+    line-height: 29px;
+}
+.w1000 .w01{
+    padding-right: 5px;
+    padding-top: 6px;
+    float: left;
+}
+.w1000 .w02{
+    padding-top: 6px;
+    padding-left: 17px;
+}
+.header span{
+    font-size: 12px;
+    margin: 0 auto;
+    float: left;
+}
+.w1000 a{
+    color: #666666;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* header end */
+
+/* logo start */
+.logo{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+.logo h1 a{
+    background-image: url(./images/logo.png);
+    display: block;
+    width: 123px;
+    height: 54px;
+    text-indent: -9999em;
+    margin-top: 10px;
+    margin-right: 460px;
+}
+.logo .fr{
+    float: right;
+    margin-top: 50px;
+    font-size: 15px;
+}
+.logo .fr a{
+    margin-left: 40px;
+    clear: both;
+}
+/* logo end */
+.shouye{
+    padding-top: 24px;
+}
+.shouye a{
+    font-size: 14px;
+    color: #f66;
+}
+/* main start */
+.main{
+    margin-top: 20px;
+}
+.main .w1000{
+    background-color: #fff;
+    height: 575px;
+    border-radius: 15px;
+}
+.main .boxl{
+    width: 186px;
+    height: 500px;
+    border-right: 1px solid #e8e8e8;
+    padding: 25px 0 25px 25px;
+    float: left;
+}
+.main .boxl .img1{
+    float: left;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+.main .boxl .img2{
+    float: left;
+    margin-top: 80px;
+    padding-right: 5px;
+}
+.main .boxl h2{
+    padding-bottom: 25px;
+}
+.main .boxl .red{
+    height: 36px;
+    background-color: #f66;
+    line-height: 36px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main .boxl .h2{
+    margin-top: 75px;
+}
+.main .question{
+    width: 730px;
+    margin-left: 54px;
+    line-height: 2;
+}
+.main .question ul li {
+    font-size: 12px;
+    border-bottom: 1px dashed #cccccc;
+    padding-bottom: 25px;
+}
+.main .question .last{
+    border-bottom: none;
+}
+.main .question ul li img{
+    float: left;
+    margin-top: 7px;
+}
+.main .question .ask{
+    padding-left: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.main .question .answer{
+    padding-left: 30px;
+}
+.main h1{
+    font-size: 28px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e4e4e4;
+    padding-top: 25px;
+}
+
+/* main end */
+/* leg start */
+.leg{
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    background-color: #e2e2e2;
+    color: #666;
+}
+.leg .w1000{
+    padding-top: 45px;
+    display: flex;
+}
+.mr200{
+    margin-right: 190px;
+}
+.leg dl dd{
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.leg dl dd span{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.leg dl .box2{
+    margin-left: 65px;
+}
+.leg dl .box3{
+    margin-right: 10px;
+}
+.leg p{
+    margin-bottom: 10px;
+}
+.leg .erweima{
+    margin-left: 35px;
+}
+.leg .foot{
+    margin-bottom: 25px;
+    text-align: center;
+    background-color: #e2e2e2;
+}
+/* leg end */
+/* footer start */
+.footer{
+    height: 64px;
+    text-align: center; 
+    background-color: #e2e2e2;
+}
+.footer span{
+    padding-left: 10px;
+    color: #666;
+}
+/* footer end */
